@@ -1,0 +1,41 @@
+.signupTop {   
+    .signup_container {
+        background-color: #fff;
+        .signup_form_container {
+            .left {
+                padding: 20px;
+                background-color: #3a4e70;
+                 a{
+                    color: white;
+                    text-decoration: none;
+                }
+                h1{
+                    cursor: pointer;
+                    color: rgba(6, 172, 218, 0.52);
+                    margin-top: 20px;
+                }
+                .h {
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: -70px;
+                    h6{
+                        font-size: 30px;
+                    }
+                    h8 {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+.signup_container{
+    .signup_form_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    }
+}
+}
