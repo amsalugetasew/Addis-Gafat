@@ -55,20 +55,20 @@ const Home = () => {
       </div>
       <div className='otherPage4T'>
         <div className="Training">
-          <div className="title">Department</div>
+          <div className="title" id='specialw'>Department</div>
           <div className="number">8</div>
         </div>
         <div className="Training">
-          <div className="title">Total Staff</div>
-          <div className="number">125</div>
+          <div className="title" id='specialw'>Total&nbsp;Staff</div>
+          <div className="number" id='specialw'>125</div>
         </div>
         <div className="Training">
-          <div className="title">Training</div>
+          <div className="title" id='specialw'>Training</div>
           <div className="number">25</div>
         </div>
         <div className="Training">
-          <div className="title">Student</div>
-          <div className="number">2050</div>
+          <div className="title" id='specialw'>Student</div>
+          <div className="number" id='bgcn'>2050</div>
         </div>
       </div>
       <div className='witnessPage'>
@@ -118,7 +118,7 @@ const Home = () => {
           <div className="contts">Linkage content</div>
         </div>
         <div className="Resource">
-          <div className="title">Resource and Facilities</div>
+          <div className="title" id='rsf'>Resource&nbsp;and&nbsp; Facilities</div>
           <div className="contts">Resource and Facilities content</div>
         </div>
       </div>

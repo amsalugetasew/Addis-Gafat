@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-// import "./Styles.css";
+import "./Styles.css";
 import { Link, useNavigate } from 'react-router-dom'
 import MenuIndex from '../Menu/MenuIndex';
 import Footer from '../Footer/Footer';
@@ -163,7 +163,6 @@ const Index = () => {
             <div className="bottom2">
                 <Footer />
             </div>
-            <div className="footer3">Copyright &copy; 2022 Addiss Gafat Technology College</div>
         </div>
     )
 }

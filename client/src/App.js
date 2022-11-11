@@ -18,13 +18,13 @@ import SignUp from "./Components/SignUp/SignUp";
 // import Main from "./Pages/Internal/Main";
 // import PostNews from "./Pages/Internal/PostNews";
 // import RemoveNews from "./Pages/Internal/RemoveNews";
-// import ViewUser from "./Pages/Internal/ViewUser";
-// import CreateUser from "./Pages/Internal/CreateUser";
+import ViewUser from "./Pages/Internal/ViewUser";
+import CreateUser from "./Pages/Internal/CreateUser";
 // import ChangePassword from "./Pages/Internal/ChangePassword";
 // import Logins from "./test/login"
 import SiggnUp from "./Components/SignUp/index";
-// import SiggnIp from "./Components/SignIn/index";
-// import Mission from "./Pages/Mission/Mission";
+import SiggnIp from "./Components/SignIn/index";
+import Mission from "./Pages/Mission/Mission";
 import NewsEvents from "./Components/News&Events/News&Events";
 import Contact from "./Pages/Contact/Contact";
 import Accademics from "./Components/Accadamics/Accademics";
@@ -93,7 +93,7 @@ function App() {
                 <NewsEvents/>
             } />
           </Route>
-          {/*
+          
           <Route path="/Home/MissionandVision/Mision">
             <Route index element={
                 <Mission/>
@@ -105,7 +105,7 @@ function App() {
                 <SiggnIp/>
             } />
           </Route>
-          */}
+         
           <Route path="/signups">
             <Route index element={
                 <SiggnUp/>
@@ -132,6 +132,7 @@ function App() {
                 <RemoveNews/>
             } />
           </Route>
+          */}
           <Route path="/Login/Internal/Main/Account/list">
             <Route index element={
                 <ViewUser/>
@@ -141,7 +142,7 @@ function App() {
             <Route index element={
                 <CreateUser/>
             } />
-          </Route> */}
+          </Route> 
           {/* <Route path="/Login/Internal/Main/Account/ChangePassword">
             <Route index element={
                 <ChangePassword/>

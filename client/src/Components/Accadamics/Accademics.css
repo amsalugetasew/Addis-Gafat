@@ -1,16 +1,25 @@
-            .title{
+           .mainContent{
+            display: flex;
+           }
+           .title{
             color: #0B431D;
             font-size: 18px;
             text-transform: capitalize;
             font-family: 'Poppins', sans-serif;
             letter-spacing: 1px;
-            width: 40%;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+        }
+        .p{
+            text-align: center;
+            margin-left: 100px;
         }
         .db2{
             width: 200px;
             height: 200px;
         }
-        .discription{
+        .discription>{
             padding-left: 30px;
             color: #0B431D;
             font-size: 15px;
@@ -18,8 +27,13 @@
             font-family: 'Poppins', sans-serif;
             letter-spacing: 1px;
             line-height: 2;
+        }
+        .text{
+            justify-content: center;
+            align-items: center;
+            margin-left: 100px;
             width: 70%;
-            margin-right: -100px;
+            margin-top: 20px;
         }
             .more {
             padding-left: 30px;

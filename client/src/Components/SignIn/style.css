@@ -15,6 +15,11 @@
         0px 3px 4px 0px rgb(0 0 0/14%),
         0px 1px 8px 0px rgb(0 0 0/12%);
     }
+    #h1{
+        color: #fff;
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
         .left{
             font: 2px;
             display: flex;
@@ -30,7 +35,7 @@
                 flex-direction: column;
                 align-items: center;
             }
-            .form_container>h1{
+            .left> .form_container>h1{
                     font-size: 40px;
                     margin-top: 0;
                 }
@@ -44,7 +49,7 @@
                     margin: 5px;
                     font-size: 14px;
                 }
-                .form_container> .error_msg{
+                .left> .form_container> .error_msg{
                     width: 370px;
                     padding: 15px;
                     margin: 5px 0;
@@ -54,7 +59,7 @@
                     border-radius: 5px;
                     text-align: center;
                 }
-                .form_container>.green_btn{
+                .left> .form_container>.green_btn{
                     border: none;
                     outline: none;
                     padding: 12px 0;
@@ -69,7 +74,7 @@
                     margin: 10px;
                 }
             
-        .right{
+                .signip_form_container> .right{
             flex: 1px;
             display: flex;
             flex-direction: column;
@@ -78,14 +83,16 @@
             background-color: #3bb19b;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
+            width: 500px;
         }
-        .right> h1{
+        .signip_form_container> .right> h1{
                 margin-top: 0;
                 color: white;
                 font-size: 40px;
                 align-self: center;
+                letter-spacing: normal;
             }
-            .right>.white_btn{
+            .white_btn{
                 border: none;
                 outline: none;
                 padding: 12px 0;

@@ -42,9 +42,9 @@ ul li {
 ul li a {
     display: block;
     padding: 8px 10px;
-    color: #333;
+    color: rgba(0, 0, 0, 0.938);
     text-decoration: none;
-    opacity: 0.8;
+    opacity: 1;
     
 }
 .sign{
@@ -66,9 +66,12 @@ ul li ul.dropdown {
 }
 ul li:hover ul.dropdown {
     display: block;
+    height: 100px;
 }
 ul li ul.dropdown li {
+    
     display: block;
+    z-index: 999;
     font-size: 1rem;
     text-transform: capitalize;
     text-align: left;

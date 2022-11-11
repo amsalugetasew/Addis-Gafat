@@ -1,0 +1,97 @@
+/* .top{
+    justify-content: center;
+    margin-left: 30px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    .nav{
+        color: teal;
+        font-size: 40px;
+        background-color: yellow;
+        margin-bottom: 20px;
+    }
+    .scnav{
+        display: flex;
+        justify-content: space-around;
+        .first{
+            border: 3px solid teal;
+            background-color: #fff;
+            justify-content: space-around;
+            #last{
+                font-size:28px
+            }
+//             box-shadow: 10px 10px 5px 0px teal;
+// -webkit-box-shadow: 10px 10px 5px 0px teal;
+// -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            .second{
+                color: teal;
+                font-size: 28px;
+                text-transform: capitalize;
+                text-decoration: underline;
+                text-align: center;
+                
+            }
+            .third{
+                // background-color: #fff;
+                margin-bottom: 20px;
+                .thirdSub{
+                    margin-bottom: 20px;
+                    display: flex;
+                    color: teal;
+                    text-transform: capitalize;
+                    font-size: 20px;
+                    // margin-left: -10px;
+                    li{
+                        list-style: circle;
+                    }
+                    .vl {
+                        border-left: 3px solid teal;
+                        height: 100px;
+                      }
+                    .thirdSub2{
+                        
+                        display: flex;
+                        flex-direction: column;
+                        // margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+    .beforeAddress{
+        background-color: teal;
+        text-align: center;
+        font-size: 45px;
+        margin-top: 10px;
+    }
+    .bfa{
+        background-color: rgba(37, 2, 144, 0.481);
+        text-align: center;
+        font-size: 35px;
+        color: #0B431D;
+    }
+    .bf{
+        background-color: lightblue;
+        text-align: center;
+        font-size: 35px;
+        color: #0B431D;
+    }
+    .bfs{
+        background-color: rgb(209, 230, 173);
+        text-align: center;
+        font-size: 35px;
+        color: #0B431D;
+        text-transform: capitalize;
+    }
+    .address{
+        display: flex;
+        justify-content: space-around;
+        color: blue;
+        font-size: 20px;
+    }
+} */

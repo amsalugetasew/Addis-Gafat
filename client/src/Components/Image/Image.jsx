@@ -12,19 +12,19 @@ function Image() {
       <div className='img'>
         <div id='slideset1'>
           <div>
-            <img className="img" src={img0} alt="img1" />
+            <img className="img" id='imgs' src={img0} alt="img1" />
           </div>
           <div>
-            <img className="img" src={img0} alt="img1" />
+            <img className="img" id='imgs'src={img0} alt="img1" />
           </div>
           <div>
-            <img className="img" src={img1} alt="img1" />
+            <img className="img" id='imgs' src={img1} alt="img1" />
           </div>
           <div>
-            <img className="img" src={img2} alt="img2" />
+            <img className="img" id='imgs' src={img2} alt="img2" />
           </div>
           <div>
-            <img className="img" src={img3} alt="img3" />
+            <img className="img" id='imgs' src={img3} alt="img3" />
           </div>
           <div>
             <img className="img" src={img0} alt="img1" />

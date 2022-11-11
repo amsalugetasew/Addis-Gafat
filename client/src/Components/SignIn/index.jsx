@@ -33,7 +33,7 @@ const Index=() =>{
     const handleSubmit = async(e) =>{
         e.preventDefault();
         try{
-            const url = "http://localhost:5000/auth";
+            const url = "./http://localhost:5000/auth";
             const{data:res} = await axios.post(url,data);
             localStorage.setItem("token", res.data);
             // window.location= "/Login/Internal/Main/PostNews"
@@ -61,7 +61,7 @@ const Index=() =>{
             <div className="signip_form_container">
                 <div className="left">
                 <form className="form_container" onSubmit={handleSubmit}>
-                        <h1>Login</h1>
+                        <h1 id='h1'>Login</h1>
                         <input
                             type="email"
                             placeholder="Email"
@@ -102,7 +102,6 @@ const Index=() =>{
             <div className="bottom2">
                 <Footer />
             </div>
-            <div className="footer3">Copyright &copy; 2022 Addiss Gafat Technology College</div>
         </div>
     )
 }
