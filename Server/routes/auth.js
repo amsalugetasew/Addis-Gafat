@@ -3,7 +3,7 @@ const router = require("express").Router();
 var express=require("express");
 // const { User } = require("../model/User");
 const Joi = require("joi");
-const bcrypt = require("bcrypt")
+// const bcrypt = require("bcrypt")
 const recordRoutes = express.Router();
 const dbo = require("../db/conn");
 recordRoutes.route("/auth").post(async function (req, res) {
