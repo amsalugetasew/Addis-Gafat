@@ -1,0 +1,41 @@
+.topmenu{
+    display: flex;
+    
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    height: 0vh;
+}
+    /* .avater{
+        background-color: #3bb19b;
+        height: 90px;
+        width: 150px;
+       
+    } */
+    #right{
+        margin-left: 280px;
+    }
+    .sub{
+        flex-direction: column;
+        margin-left: 200px;
+    }
+        .subs{
+            text-align: center;            
+        }
+    /* li{
+        list-style: none;
+        margin: 60px;
+        align-items: center;
+        width: 50px;
+        cursor: pointer;
+        font-size: 30px;
+        margin-top: -3px;
+        opacity: 0.5;
+        color: #000000;
+        opacity: 0.3;
+        font-weight: bold;
+    } */
+        .listItem{
+            cursor: pointer;
+        }

@@ -1,0 +1,127 @@
+.secondbutton {
+    background-color: #ffffff;
+    height: 100%;
+    width: 97%;
+    margin-left: 40px;
+}
+    .secondbutton> .nwsnsrch {
+        display: flex;
+        width: 100%;
+        border-bottom: none;
+    }
+    .secondbutton> .nwsnsrch> .aroundSearch {
+            font-weight: bold;
+            opacity: 0.6;
+            font-size: 35px;
+            margin-left: 600px;
+            display: flex;
+    }
+    .aroundSearch> input {
+                width: 300px;
+                height: 50px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                color: #3bb19b;
+            }
+
+            .aroundSearch> .search {
+                cursor: pointer;
+            }
+        
+
+        .news {
+            font-weight: bold;
+            opacity: 0.6;
+            font-size: 35px;
+            text-transform: capitalize;
+            color: blue;
+        }
+    
+
+    .TopMainCss {
+        font-size: 20px;
+        opacity: 0.9;
+        font-family: 'Poppins', sans-serif;
+        font-family: sans-serif;
+        font-family: "Lava Std",Georgia,"Times New Roman";
+    }
+
+    .dMain {
+        display: flex;
+    }
+    .dMain> .titlenNews{
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        width: 1000px;
+        height: auto;
+        display: flex;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 30px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 1.0625rem;
+        font-weight: 400;
+        line-height: 1.75rem;
+        margin-bottom: 2rem;
+        text-rendering: optimizeSpeed;
+        color: #000;
+        padding-left: 40px;
+        font-family: "GT America",Helvetica,Arial;
+        }
+        
+        .title {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        width: 1000px;
+        height: auto;
+        display: flex;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 30px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        font-size: 1.0625rem;
+        font-weight: 400;
+        line-height: 1.75rem;
+        margin-bottom: 2rem;
+        text-rendering: optimizeSpeed;
+        color: #000;
+        padding-left: 40px;
+        font-family: "GT America",Helvetica,Arial;
+        font-size: 30px;
+        justify-content: center;
+        font-weight: bold;
+        text-transform: capitalize;
+                       
+        }
+
+        .dMain> .pd {
+            display: flex;
+        }
+        .dMain> .pd> .images {
+                margin-right: 30px;
+                font-weight: bold;
+                font-style: italic;
+                opacity: 0.5;
+                font-size: 20px;
+                margin-top: -30px;
+                height: auto;
+                width: 300px;
+                padding-right: 20px;
+                border-radius: 20%;
+            }
+
+            #date {
+                background-color: rgb(255, 255, 255);
+                /* background-color: crimson; */
+                color: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }

@@ -1,0 +1,85 @@
+.menu {
+    display: flex;
+    height: 40px;
+    width: 80%;
+}
+    .Main {
+        font-family: sans-serif;
+        background: #ffffff;
+        height: 10vh;
+    }
+        .limenu{
+            display: block;
+        }
+        .DropDownContainer {
+            width: 13.5em;
+            margin: 0 auto;
+            display: inline-block;
+        }
+            .DropDownHeader {
+                margin-bottom: 0.8em;
+                padding: 0.4em 2em 0.4em 1em;
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+                font-weight: 500;
+                font-size: 1.3rem;
+                color: #48fa3f;
+                background: #ffffff;
+            }
+
+            .DropDownList {
+                padding: 0;
+                margin: 0;
+                padding-left: 1em;
+                background: #20559e;
+                border: 2px solid #e5e5e5;
+                box-sizing: border-box;
+                color: #ffffff;
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+                /* &:first-child {
+                    padding-top: 0.8em;
+                } */
+
+                .ListItem {
+                    list-style: none;
+                    margin-bottom: 0.8em;
+                    cursor: pointer;
+                }
+
+                    a {
+                        color: #ffffff;
+                        list-style: none;
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        border-bottom: 7px #0d315a solid;
+                        background-color: #0d315a;
+                        color: #428bca;
+                        cursor: pointer;
+                        width: 13.5em;
+                    }
+
+    .limenu {
+        list-style: none;
+        margin-left: 40px;
+        font-size: 20px;
+        text-transform: uppercase;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+        a {
+            list-style: none;
+            text-decoration: none;
+            color: #000000;
+        }
+
+        a:hover {
+            list-style: none;
+            font-size: 30px;
+            text-transform: uppercase;
+            opacity: 0.5;
+            border-bottom: 7px blue solid;
+            cursor: pointer;
+        }        

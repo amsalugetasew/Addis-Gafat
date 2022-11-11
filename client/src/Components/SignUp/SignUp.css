@@ -1,0 +1,45 @@
+/* .signup{
+    margin-top: 20px;
+    h3{
+        text-align: center;
+    }
+    form{
+        background-color: #B0C4DE;
+        width: 600px;
+        height: 730px;
+        text-align: center;
+        margin-left: 450px;
+        margin-bottom: 100px;
+        #input{
+            width: 400px;
+            margin-top: 10px;
+            margin-left: 100px;
+            border-radius: 20%;
+            display: flex;
+            flex-direction: column;
+            .lbl{
+                margin-top: 12px;
+            }
+            .input{
+                background-color: #ffffff;
+                height: 45px;
+                margin-top: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 20px;
+                border-radius: 0%;
+                border: none;
+            }
+        }
+        #button{
+            background-color: #20B2AA;
+            height: 40px;
+            width: 100px;
+            margin-top: 30px;
+            border: none;
+            border-radius: 10%;
+        }
+    }
+p{
+    color: crimson;
+}
+} */

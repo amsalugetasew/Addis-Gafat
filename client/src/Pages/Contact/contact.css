@@ -1,0 +1,120 @@
+/* .signupTop>    */
+    .signup_container {
+        background-color: #fff;
+    }
+    .signup_form_container{
+        display: flex;
+        margin-left: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+            .left {
+                padding: 20px;
+                background-color: #3a4e70;
+                width: 500px;
+            }
+            a{
+                    color: white;
+                    text-decoration: none;
+                }
+                h1{
+                    cursor: pointer;
+                    color: rgba(6, 172, 218, 0.52);
+                    margin-top: 20px;
+                    font-size: 60px;
+                }
+            .h {
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: -70px;
+            }
+            h6{
+                        font-size: 30px;
+                    }
+            h8 {
+                        font-size: 25px;
+                    }
+
+                    .right {
+                        font: 2px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #fff;
+                        border-top-left-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        width: 600px;
+                    }
+                    .right> .form_container> h1{
+                        font-size: 70px;
+                        /* color: #3a4e70; */
+                    }
+                        .form_container {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        .form_container> h1 {
+                                font-size: 40px;
+                                margin-top: 0;
+                            }
+        
+                            .form_container>  .input {
+                                outline: none;
+                                border: none;
+                                width: 370px;
+                                padding: 15px;
+                                border-radius: 10px;
+                                background-color: #edf5f3;
+                                margin: 5px;
+                                font-size: 14px;
+                            }
+                            .form_container>  #error_msg{
+                                width: 370px;
+                                padding: 15px;
+                                margin: 5px 0;
+                                font-size: 14px;
+                                background-color: #f34646;
+                                color: white;
+                                border-radius: 5px;
+                                text-align: center;
+                            }
+                            .form_container> .error_msg {
+                                width: 370px;
+                                padding: 15px;
+                                margin: 5px 0;
+                                font-size: 14px;
+                                background-color: #f34646;
+                                color: white;
+                                border-radius: 5px;
+                                text-align: center;
+                            }
+        
+                            .form_container> .green_btn {
+                                border: none;
+                                outline: none;
+                                padding: 12px 0;
+                                background-color: #fff;
+                                border-radius: 20px;
+                                width: 180px;
+                                font-weight: bold;
+                                font-size: 14px;
+                                cursor: pointer;
+                                background-color: #3a4e70;
+                                color: white;
+                                margin: 10px;
+                            }
+
+
+/* @media only screen and (max-width: 600px) {
+.signup_container{
+    .signup_form_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    }
+}
+} */
