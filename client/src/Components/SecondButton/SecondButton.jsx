@@ -7,12 +7,12 @@ const Record = (props) => (
      <div className='title'>{props.record.title}</div>
     <div>{props.record.news}</div>
     </div>
-    
     <div className='pd'>
       {/* <p className='images'><div>
          {props.record.image} 
       <img src={img} alt="" /></div></p>  */}
-    <div className='date'>{props.record.dateOfRegistartion} </div></div>
+    <div className='date'>
+      {props.record.dateOfRegistartion}</div></div>
   </div>
 );
 function SecondButton() {
