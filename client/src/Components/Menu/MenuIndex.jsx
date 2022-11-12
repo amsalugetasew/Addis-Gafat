@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "./inde.css"
+import "./inde.scss"
 import Logo from "../../Image/logo.jpg"
 // import MenuIcon from '@mui/icons-material/Menu';
 // import MenuIcon from 'material-ui-icons/Menu';
@@ -13,17 +13,8 @@ function inde() {
         </div>
       <ul>
         <li><Link to="/Home">Home</Link></li>
-        {/* <li><Link to="/Home">Other ▾</Link>
-        <ul class="dropdown">
-                <li><Link to="/Home/Other/List">All lists</Link></li>
-                <li><Link to="/Home/Other/Create">create</Link></li>
-                <li><Link to="/Home/Other/Edit">Edit</Link></li>
-                <li><Link to="/Home/Other/Navbar">navebar</Link></li>
-                <li><Link to="/Home/Other/SignUp">SignUp</Link></li>
-            </ul>
-        </li> */}
-        <li><Link to="">About us ▾</Link>
-        <ul class="dropdown">
+        <li className="dropdown"><Link to="">About us ▾</Link>
+        <ul className="dropdown">
                 <li><Link to="/Home/Administration">administration</Link></li>
                 <li><Link to="/Home/AboutAGTC/History">History</Link></li>
                 <li><Link to="/Home/MissionandVision/Mision">Mission and vision</Link></li>

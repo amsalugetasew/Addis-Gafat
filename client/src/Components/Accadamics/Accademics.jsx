@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuIndex from '../../Components/Menu/MenuIndex'
-import TopMenu from '../../Components/TopMenu/TopMenu'
+import TopMenu from '../TopMenu/TopMenu'
 import Pattern from "../../Image/pattern.png"
 import dba1 from "../../Image/dba1.jpg"
 import dba2 from "../../Image/dba2.jpg"
@@ -26,23 +26,10 @@ import P1 from "../../Image/P1.jpg"
 import P2 from "../../Image/P2.jpg"
 import P3 from "../../Image/P3.jpg"
 import P4 from "../../Image/P4.jpg"
-import Footer from '../../Components/Footer/Footer'
-import './Accademics.css'
+import Footer from '../Footer/Footer'
+import Main from '../../Pages/Home/main'
+import './Accademics.scss'
 function Accademics() {
-    const btnHandle1 =(e)=>{
-        const readMoreBtn = document.querySelector('.more');
-      const text = document.querySelector('.text');
-      readMoreBtn.addEventListener('click', (e)=>{
-          text.classList.toggle('show-more');
-          if(readMoreBtn.innerText === 'Read More')
-          {
-              readMoreBtn.innerText = 'Read Less';
-          }
-          else{
-              readMoreBtn.innerText = 'Read More';
-          }
-      })
-      }
     const btnHandle =(e)=>{
         const readMoreBtn = document.querySelector('.more');
       const text = document.querySelector('.text');
@@ -90,7 +77,7 @@ function Accademics() {
                                 Structured query language database administrators (SQL DBAs) are in high demand and yield high salaries. Their work is dynamic and challenging, though it can be stressful. SQL DBAs manage an organization's data using the database language SQL.
                             </span>
                         </p>
-                        <button onClick={btnHandle1} className='more'>Read More</button>
+                        <button onClick={btnHandle} className='more'>Read More</button>
                         <span className='img'><img className='img' src={Pattern} alt="pattern" /></span>
                     </div>
                 </div>
@@ -218,7 +205,7 @@ function Accademics() {
                             </span>
                         </p>
                         <button className='more'>Read More</button>
-                        {/* <script src={Main}></script> */}
+                        <script src={Main}></script>
                         <span className='img'><img className='img' src={Pattern} alt="pattern" /></span>
                     </div>
                 </div>
@@ -250,7 +237,7 @@ function Accademics() {
                             </span>
                         </p>
                         <button className='more'>Read More</button>
-                        {/* <script src={Main}></script> */}
+                        <script src={Main}></script>
                         <span className='img'><img className='img' src={Pattern} alt="pattern" /></span>
                     </div>
                 </div>

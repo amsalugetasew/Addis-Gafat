@@ -2,28 +2,34 @@
     display: flex;
     
     justify-content: center;
+    // background-color: #72655d;
+    // background-color: rgb(188, 186, 186);
+    // background-color: rgba(41, 41, 141, 0.705);
+    // background-color: #3bb19b;
+    // background-color: #428bca;
+    // background-color: #4b6692;
+    // background: #3a4e70;
     font-size: 30px;
     text-transform: uppercase;
     color: #fff;
     height: 0vh;
-}
-    /* .avater{
+    .avater{
         background-color: #3bb19b;
         height: 90px;
         width: 150px;
        
-    } */
+    }
     #right{
         margin-left: 280px;
     }
     .sub{
         flex-direction: column;
         margin-left: 200px;
-    }
         .subs{
             text-align: center;            
         }
-    /* li{
+    }
+    li{
         list-style: none;
         margin: 60px;
         align-items: center;
@@ -35,7 +41,8 @@
         color: #000000;
         opacity: 0.3;
         font-weight: bold;
-    } */
         .listItem{
             cursor: pointer;
         }
+    }
+}

@@ -1,6 +1,8 @@
-import React, { useEffect} from 'react'
+import React, { useEffect
+  // , useRef, useState 
+} from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import "./style.css"
+import "./style.scss"
 import profile from "../../Image/image0.jpg"
 // import CameraAltIcon from '@mui/icons-material/CameraAlt';
 // import {
@@ -8,22 +10,7 @@ import profile from "../../Image/image0.jpg"
 //     Modal } from 'antd';
 // import "antd/dist/antd.css";
 // import 'antd/dist/antd.min.css';
-import "./password.css";
-// import { makeStyles } from '@mui/styles';
-// const useStyles = makeStyles({
-//   IconButton: {
-//     position: "absolute",
-//     top: "20px",
-//     right: "20px",
-//   },
-//   CancelIcon: {
-//     color: "#00a3c8",
-//     fontSize: "50px",
-//     "&:hover": {
-//       color: "red"
-//     },
-//   },
-// });
+import "./password.scss";
 
 
 
@@ -31,14 +18,12 @@ export default function Menu() {
   // const [emails, setEmail] = useState()
   // const inputRef2 = useRef(null);
   // const [data, setData] = useState({
-    // email: "",
+  //   // email: "",
   //   avatar: "",
   // });
   // const [
   //   // error,
   //    setError] = useState("");
-  // const [records, setRecords] = useState([]);
-  // const classes = useStyles();
   // const triggerSelectPopup = () => inputRef.current.click();
   // const inputRef = React.useRef();
   // const [image, setImage] = useState(null);
@@ -80,15 +65,6 @@ export default function Menu() {
   // const handleProCancel = () => {
   //   setModalProVisible(false);
   // };
-
-
-  // async function changePassword(id) {
-  //   await fetch(`http://localhost:5000/update-user-profile/${id}`, {
-  //     method: "post"
-  //   });
-  //   const newRecords = records.filter((el) => el._id !== id);
-  //   setRecords(newRecords);
-  // }
 
 
   // const handleSubmit = async (e) => {
@@ -142,12 +118,11 @@ export default function Menu() {
             <li><Link to="/Login/Internal/Main/Account/Create">Assign Role</Link></li>
           </ul>
         </li>
-        <li><Link id='dif' to="">
-          <div
-            // CameraAltIcon 
-            className='camera' 
-            // onClick={showProfileModal} 
-            /><img src={profile} className="imges" alt="profile" />
+        <li><Link id='dif' to=""><div
+          // CameraAltIcon 
+          className='camera'
+        //  onClick={showProfileModal} 
+         /><img src={profile} className="imges" alt="profile" />
           <ul class="dropdown">
 
             <li>
@@ -159,7 +134,11 @@ export default function Menu() {
           </ul>
         </Link></li>
       </ul>
-      {/* <Modal title="Change Password" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>
+      <div
+        // Modal 
+        title="Change Password" 
+        // visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}
+        >
         <div className='layout'>
           <div className='display-flex'>
             <input className='input' placeholder='Old Password' type="password" name='oldPassword' />
@@ -172,54 +151,67 @@ export default function Menu() {
           </div>
           <button>Change Password</button>
         </div>
-      </Modal> */}
+      </div>
 
-      {/* <Modal title="Change Profile Picture" visible={isModalProVisible} onOk={handleProOk} onCancel={handleProCancel}>
+      <div
+        // {/* Modal  */}
+      title="Change Profile Picture" 
+      // visible={isModalProVisible} onOk={handleProOk} onCancel={handleProCancel}
+      >
         <div className="container-cropper">
-          {image ? (
+          {/* {image ? ( */}
             <>
               <div className="cropper">
-                <img
+                {/* <img
                   id='blankImg'
                   className='blankImg'
                   src={image}
-                  alt="" />
+                  alt="" /> */}
               </div>
             </>
-          ) : null}
+          {/* ) : null} */}
         </div>
         <div className="container-buttons">
 
-          <form onSubmit={handleSubmit} enctype="multipart/form-data">
+          <form 
+          // onSubmit={handleSubmit} 
+          enctype="multipart/form-data">
+            {/* <form action="/profile" method="post" encType="multipart/form-data" onSubmit={handleSubmit}> */}
             <input type="file"
               name="avatar"
               accept='image/'
-              ref={inputRef}
-              onChange={onSelectFile}
+              // ref={inputRef}
+              // onChange={onSelectFile}
+            // onChange={handleChange}
+            // style={{ display: "none" }}
+
             />
-            <input type="email" ref={inputRef2} name='emails' value={emails}
+            <input type="email" 
+            // ref={inputRef2} 
+            name='emails' 
+            // value={emails}
             />
             <button type='submit'>Upload</button>
           </form>
           <button variant="contained" color='primary'
-            onClick={() => setImage(null)}
+            // onClick={() => setImage(null)}
             style={{ marginRight: "10px", marginTop: "200px", color: "white", backgroundColor: "crimson", width: "90px", height: "45px" }}
           >clear</button>
           <button variant="contained"
             color='primary'
-            onClick={triggerSelectPopup}
+            // onClick={triggerSelectPopup}
             style={{ marginRight: "10px", marginTop: "200px", color: "white", backgroundColor: "blue", width: "90px", height: "45px" }}
           >Choose</button>
           <button variant="contained"
             color='primary'
+            // onClick={onDownload}
             style={{ marginRight: "10px", marginTop: "200px", color: "white", backgroundColor: "teal", width: "90px", height: "45px" }}
           >Download</button>
           <button variant="contained" color='primary'
             style={{ marginRight: "10px", marginTop: "200px", color: "white", backgroundColor: "gray", width: "90px", height: "45px" }}
           >Upload</button>
         </div>
-      </Modal> */}
-
+      </div>
     </div>
   )
 }

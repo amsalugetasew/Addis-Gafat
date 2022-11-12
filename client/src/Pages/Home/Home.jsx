@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Home.css"
+import "./Home.scss"
 import MenuIndex from '../../Components/Menu/MenuIndex'
 import TopMenu from '../../Components/TopMenu/TopMenu'
 import Image from '../../Components/Image/Image'
@@ -32,7 +32,7 @@ const Home = () => {
       <div className='df'>
         <div className='disc'>
           <li>adiss gafat technology collage PLC</li>
-          <h1> Welcome to AGTC</h1>
+          <h1> Welcome to Addis Gafat Technology College</h1>
           <p className='text'>
             short discription
             multilingual free online encyclopedia written and maintained by a community of volunteers through open collaboration and a wiki-based editing system. Individual contributors,
@@ -46,8 +46,7 @@ const Home = () => {
             </span>
           </p>
           <button className='more' onClick={btnHandle}>Read More</button>
-          <span className='img'>
-            <img className='img' id='img' src={Pattern} alt="pattern" /></span>
+          <span className='img'><img className='img' src={Pattern} alt="pattern" /></span>
         </div>
         <div className="image">
           <Image />
@@ -55,20 +54,20 @@ const Home = () => {
       </div>
       <div className='otherPage4T'>
         <div className="Training">
-          <div className="title" id='specialw'>Department</div>
+          <div className="title">Department</div>
           <div className="number">8</div>
         </div>
         <div className="Training">
-          <div className="title" id='specialw'>Total&nbsp;Staff</div>
-          <div className="number" id='specialw'>125</div>
+          <div className="title">Total Staff</div>
+          <div className="number">125</div>
         </div>
         <div className="Training">
-          <div className="title" id='specialw'>Training</div>
+          <div className="title">Training</div>
           <div className="number">25</div>
         </div>
         <div className="Training">
-          <div className="title" id='specialw'>Student</div>
-          <div className="number" id='bgcn'>2050</div>
+          <div className="title">Student</div>
+          <div className="number">2050</div>
         </div>
       </div>
       <div className='witnessPage'>
@@ -118,7 +117,7 @@ const Home = () => {
           <div className="contts">Linkage content</div>
         </div>
         <div className="Resource">
-          <div className="title" id='rsf'>Resource&nbsp;and&nbsp; Facilities</div>
+          <div className="title">Resource and Facilities</div>
           <div className="contts">Resource and Facilities content</div>
         </div>
       </div>

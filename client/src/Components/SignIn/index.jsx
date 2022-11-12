@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import "./style.css";
+import "./style.scss";
 import TopMenu from '../TopMenu/TopMenu';
 import { Link, useNavigate} from 'react-router-dom'
 import axios from "axios";
@@ -33,7 +33,7 @@ const Index=() =>{
     const handleSubmit = async(e) =>{
         e.preventDefault();
         try{
-            const url = "./http://localhost:5000/auth";
+            const url = "http://localhost:5000/auth";
             const{data:res} = await axios.post(url,data);
             localStorage.setItem("token", res.data);
             // window.location= "/Login/Internal/Main/PostNews"
@@ -61,7 +61,7 @@ const Index=() =>{
             <div className="signip_form_container">
                 <div className="left">
                 <form className="form_container" onSubmit={handleSubmit}>
-                        <h1 id='h1'>Login</h1>
+                        <h1>Login</h1>
                         <input
                             type="email"
                             placeholder="Email"

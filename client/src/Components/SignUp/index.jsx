@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "./Styles.css";
+import "./Styles.scss";
 import { Link, useNavigate } from 'react-router-dom'
 import MenuIndex from '../Menu/MenuIndex';
 import Footer from '../Footer/Footer';

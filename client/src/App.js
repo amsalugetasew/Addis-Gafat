@@ -4,17 +4,17 @@ import { BrowserRouter,
   Route
  } from "react-router-dom";
  import Home from "./Pages/Home/Home";
-//  import Dean from "./Components/Dean/Dean";
+ import Dean from "./Components/Dean/Dean";
 // import Test from "./Components/SignUp/sign_up";
 // import Navbar from "./Components/navbar";
 // import RecordList from "./Components/recordList";
 // import Create from "./Components/create";
 import SignUp from "./Components/SignUp/SignUp";
-// import Administration from "./Pages/Administration/Administration";
-// import History from "./Pages/History/History";
+import Administration from "./Pages/Administration/Administration";
+import History from "./Pages/History/History";
 // import Login from "./Components/SignUp/sign_in";
 // import Success from "./Components/SignUp/signup_success";
-// import Message from "./Pages/Message/Message";
+import Message from "./Pages/Message/Message";
 // import Main from "./Pages/Internal/Main";
 // import PostNews from "./Pages/Internal/PostNews";
 // import RemoveNews from "./Pages/Internal/RemoveNews";
@@ -190,7 +190,7 @@ function App() {
                 <Home/>
             } />
            </Route>
-          {/*<Route path="/Home/AboutAGTC/History">
+          <Route path="/Home/AboutAGTC/History">
             <Route index element={
               <History/>
             }/>
@@ -205,12 +205,13 @@ function App() {
               <Administration/>
             }/>
           </Route>
+          
           <Route path="/Home/Administration/Dean">
             <Route index element={
               <Dean/>
             }/>
           </Route>
-          
+          {/*
           <Route path="/login">
             <Route index element={<Login/>}/>
           </Route> */}

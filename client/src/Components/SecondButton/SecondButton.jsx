@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './SecondButton.css'
+import './SecondButton.scss'
 // import img from "../../Image/GMW.jpg"
 const Record = (props) => (
   <div className='dMain'>
@@ -12,7 +12,7 @@ const Record = (props) => (
       {/* <p className='images'><div>
          {props.record.image} 
       <img src={img} alt="" /></div></p>  */}
-    <div className='date' id='date'>{props.record.dateOfRegistartion} </div></div>
+    <div className='date'>{props.record.dateOfRegistartion} </div></div>
   </div>
 );
 function SecondButton() {

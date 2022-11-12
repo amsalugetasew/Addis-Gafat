@@ -1,37 +1,37 @@
 .image{
     height: 80vh;
+    // width: 1000px;
     width: auto;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 19px 23px 24px 0px #ffffff;
     -webkit-box-shadow: 11px 13px 14px 0px rgb(255, 255, 255);
-    display: flex; 
-}
-    #imgs{
+    display: flex;
+    .img{
         width: 500px;
         height: 500px;
-        margin-left: -500px;
-    }
         img{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 54% 99%);   
-        clip-path: polygon(0% 0%, 100% 0, 100% 35%, 100% 85%, 83% 84%, 39% 79%, 0 69%, 0 1%, 17% 1%); 
+        clip-path: polygon(0% 0%, 100% 0, 100% 35%, 100% 85%, 83% 84%, 39% 79%, 0 69%, 0 1%, 17% 1%);
     }
+         }
+    Button{
     .previous{
+        // z-index: 1;
         cursor: pointer;
         position: relative;
         margin-right: 910px;
         position: absolute;
         margin-top: 400px;
         margin-left: -210px;
-    }    
-    /* Button{
-    
-} */
+    }
+}
     .next{
         position: relative;
         margin-top: -450px;
         margin-right: -80px;
         cursor: pointer;
     }
+}
 
 #slideset1 {height: 10em; position: relative}
 #slideset1 > * {visibility: hidden; position: absolute;
@@ -42,4 +42,4 @@
       }
       #slideset1 > *:nth-child(1) {animation-delay: 0s}
 #slideset1 > *:nth-child(2) {animation-delay: 4s}
-#slideset1 > *:nth-child(3) {animation-delay: 8s} 
+#slideset1 > *:nth-child(3) {animation-delay: 8s}

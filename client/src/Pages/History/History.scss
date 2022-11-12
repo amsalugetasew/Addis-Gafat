@@ -1,0 +1,99 @@
+.history {
+    .image{
+        color: #000;
+        padding-left: 90px;
+    }
+    .history1 {
+        .h1 {
+            text-transform: capitalize;
+            border-bottom: 2px rgba(210, 200, 200, 0.574) solid;
+            font-size: 25px;
+            padding-left: 30px;
+            opacity: 0.5;
+        }
+        .h2{
+            text-transform: uppercase;
+            font-weight: bold;
+            opacity: .5;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .h3,.h4,.h5,.h6,.h7{
+            // text-transform: capitalize;
+            // opacity: .9;
+            // font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 2;
+            font-size: 20px;
+        opacity: 0.9;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        .h8{
+            font-size: 25px;
+            opacity: 0.4;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        .images{
+            display: flex;
+            justify-content: center;            
+            margin-bottom: 30px;
+            text-align: center;
+            .img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+        }
+            .period{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 30px;
+                text-align: center;
+                .img{
+                    justify-content: center;
+                    width: 200px;
+                }
+            }
+    }
+    .footer3{
+        background-color: #3bb19b;
+        position: relative;
+        margin-top: -30px;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .h1{
+        margin-left: 100px;
+        color: teal;
+    }
+    .h2{
+        margin-left: 30px;
+        font-size: 20px;
+        margin-right: 10px;
+        font-family: 'Poppins', sans-serif;
+      letter-spacing: 0.5px;
+      line-height: 1.2;
+    }
+    .h3,.h4,.h5,.h6,.h7,.h8{
+        margin-left: 30px;
+        margin-right: 10px;
+        font-family: 'Poppins', sans-serif;
+      letter-spacing: 0.5px;
+      line-height: 1.2;
+    }
+    .images{
+        flex-direction: column;
+        margin-left: 200px;
+        .img{
+            margin-top: 30px;
+        }
+    }
+    .period{
+        .img{
+            display: none;
+        }
+    }
+}

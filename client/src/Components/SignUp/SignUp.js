@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
-import "./SignUp.css";
+import "./SignUp.scss";
 export default function Create() {
   const [form, setForm] = useState({
     firstName: "",

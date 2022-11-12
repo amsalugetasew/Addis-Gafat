@@ -1,7 +1,7 @@
 import React from 'react'
 import TopMenu from '../../Components/TopMenu/TopMenu'
 import MenuIndex from '../../Components/Menu/MenuIndex'
-import "./style.css"
+import "./style.scss"
 import Footer from '../../Components/Footer/Footer'
 import Image from '../../Components/Image/Image'
 function Mission() {

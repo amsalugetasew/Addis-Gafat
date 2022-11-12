@@ -5,7 +5,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
     .signip_form_container{
         width: 900px;
         height: 500px;
@@ -14,12 +13,6 @@
         box-shadow: 0px 3px 3px -2px rgb(0 0 0/20%),
         0px 3px 4px 0px rgb(0 0 0/14%),
         0px 1px 8px 0px rgb(0 0 0/12%);
-    }
-    #h1{
-        color: #fff;
-        font-size: 36px;
-        letter-spacing: 2px;
-    }
         .left{
             font: 2px;
             display: flex;
@@ -29,17 +22,15 @@
             background-color: #fff;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
-        }
             .form_container{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-            }
-            .left> .form_container>h1{
+                h1{
                     font-size: 40px;
                     margin-top: 0;
                 }
-                .form_container>.input{
+                .input{
                     outline: none;
                     border: none;
                     width: 370px;
@@ -49,7 +40,7 @@
                     margin: 5px;
                     font-size: 14px;
                 }
-                .left> .form_container> .error_msg{
+                .error_msg{
                     width: 370px;
                     padding: 15px;
                     margin: 5px 0;
@@ -59,7 +50,7 @@
                     border-radius: 5px;
                     text-align: center;
                 }
-                .left> .form_container>.green_btn{
+                .green_btn{
                     border: none;
                     outline: none;
                     padding: 12px 0;
@@ -73,8 +64,10 @@
                     color: white;
                     margin: 10px;
                 }
-            
-                .signip_form_container> .right{
+            }
+           
+        }
+        .right{
             flex: 1px;
             display: flex;
             flex-direction: column;
@@ -83,14 +76,11 @@
             background-color: #3bb19b;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 10px;
-            width: 500px;
-        }
-        .signip_form_container> .right> h1{
+            h1{
                 margin-top: 0;
                 color: white;
                 font-size: 40px;
                 align-self: center;
-                letter-spacing: normal;
             }
             .white_btn{
                 border: none;
@@ -103,8 +93,10 @@
                 font-size: 14px;
                 cursor: pointer;
             }
-
-/* @media only screen and (max-width: 600px) {
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
     .signip_container{
         .signip_form_container{
         display: flex;
@@ -136,4 +128,4 @@
     .image{
         display: none;
     }
-    } */
+    }

@@ -1,6 +1,7 @@
 import React from 'react'
-import "./TopMenu.css"
+import "./TopMenu.scss"
 // import Logo from "../../Image/logo.jpg"
+
 function TopMenu() {
   return (
     <div className='topmenu'>

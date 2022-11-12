@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import TopMenu from '../TopMenu/TopMenu'
 import MenuIndex from '../Menu/MenuIndex'
-import './LMS.css'
+import './LMS.scss'
 function MyAGTC() {
   return (
     <div className='LMS'>
